@@ -1,0 +1,85 @@
+# ---------------------------------------------
+# Unreal Engine 5.6 – Git Ignore
+# ---------------------------------------------
+
+# Build artifacts
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/Receipts/
+
+# User specific files
+*.suo
+*.sln.docstates
+*.opensdf
+*.sdf
+*.VC.opendb
+*.VC.db
+*.vscode/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.opensdf
+*.sdf
+*.cache/
+*.log
+
+# Unreal auto-generated
+*.aps
+*.pdb
+*.obj
+*.ipdb
+*.iobj
+*.generated.*
+*_BuiltData.uasset
+
+# Config backup
+Config/DefaultEditor.ini
+Config/DefaultEditorPerProjectUserSettings.ini
+
+# Plugins generated
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+Plugins/*/DerivedDataCache/
+
+# Build platforms
+Build/Android/*
+Build/IOS/*
+Build/Linux/*
+Build/Mac/*
+Build/Windows/*
+
+# Local temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Unreal project auto files
+*.pid
+*.tps
+
+# Visual Studio Cache
+.vs/
+
+# Optional: Ignore all Saved/** except Maps (if you want to version maps autosaves)
+# Saved/Autosaves/
+
+# If using Rider
+.idea/
+*.Rider/
+
+# Optional DDC (heavy files not needed)
+DerivedDataCache/
+
+# If using FMOD, Wwise, etc.
+FMODStudio/Binaries/
+FMODStudio/Intermediate/
+Wwise/Binaries/
+Wwise/Intermediate/
